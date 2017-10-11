@@ -38,9 +38,10 @@ class BrewProjects: UIViewController {
    }
    
    // RESET User Defaults
-   @IBOutlet weak var resetButton: UIButton!
-   @IBAction func didTapReset(_ sender: UIButton) {
+   @IBOutlet weak var resetUserDefaultButton: UIBarButtonItem!
+   @IBAction func didTapUserDefaultButton(_ sender: UIBarButtonItem) {
       UserDefaults.standard.set(resetOnboardViewed, forKey: "onboardViewed")
    }
+
    
 }
