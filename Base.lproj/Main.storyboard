@@ -41,13 +41,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple brew tracking." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1u-Us-ANQ">
-                                <rect key="frame" x="16" y="173.66666666666666" width="382" height="33"/>
+                                <rect key="frame" x="16" y="165" width="382" height="28"/>
                                 <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="24"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brew Project" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNZ-98-9Sz">
-                                <rect key="frame" x="16" y="100.00000000000001" width="382" height="57.666666666666671"/>
+                                <rect key="frame" x="16" y="100" width="382" height="49"/>
                                 <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="42"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -258,17 +258,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="403-cf-dW5">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X6W-V8-AQ8">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="403-cf-dW5" firstAttribute="leading" secondItem="uvd-pT-AAz" secondAttribute="leading" id="A78-oI-YJh"/>
-                            <constraint firstItem="403-cf-dW5" firstAttribute="top" secondItem="vEc-BH-AoN" secondAttribute="top" id="SFS-YZ-0kh"/>
-                            <constraint firstItem="403-cf-dW5" firstAttribute="bottom" secondItem="vEc-BH-AoN" secondAttribute="bottom" id="ekE-H0-12z"/>
-                            <constraint firstAttribute="trailing" secondItem="403-cf-dW5" secondAttribute="trailing" id="wz6-n2-Owo"/>
+                            <constraint firstItem="X6W-V8-AQ8" firstAttribute="top" secondItem="vEc-BH-AoN" secondAttribute="top" id="Mte-N5-aze"/>
+                            <constraint firstItem="X6W-V8-AQ8" firstAttribute="leading" secondItem="vEc-BH-AoN" secondAttribute="leading" id="oll-va-9Wi"/>
+                            <constraint firstItem="X6W-V8-AQ8" firstAttribute="trailing" secondItem="vEc-BH-AoN" secondAttribute="trailing" id="yKT-1z-sjt"/>
+                            <constraint firstItem="X6W-V8-AQ8" firstAttribute="bottom" secondItem="vEc-BH-AoN" secondAttribute="bottom" id="yNY-08-tn8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vEc-BH-AoN"/>
                     </view>
@@ -294,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nt8-hv-qEz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1458.4000000000001" y="205.54722638680661"/>
+            <point key="canvasLocation" x="-1459.4202898550725" y="204.61956521739131"/>
         </scene>
         <!--Recipes Navigation Controller-->
         <scene sceneID="OIr-d1-0jU">
@@ -419,7 +419,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="hwt-Jm-iAa"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About Brew Projects" id="yoj-br-b5U">
+                    <navigationItem key="navigationItem" title="About" id="yoj-br-b5U">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="KF4-YH-d4K">
                             <connections>
                                 <action selector="didTapMenuButton:" destination="Ag9-zP-iXv" id="EDa-S1-T60"/>
